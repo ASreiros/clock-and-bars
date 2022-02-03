@@ -12,9 +12,13 @@
    width: 100px;
    height: 20px;
 }
+.value{
+    display:inline;
+}
 
 .label{
     font-size: 0.8em;
 }
+
 
 /* Logical part is in clock.js */
