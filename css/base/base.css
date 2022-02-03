@@ -13,6 +13,7 @@ body {
 :root {
     --primary-color: #11cfa0;
     --secondary-color: #9f85b1;
+    --text-color:wheat;
 }
 
 .bg-primary {

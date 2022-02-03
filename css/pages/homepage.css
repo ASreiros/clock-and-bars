@@ -2,9 +2,49 @@
 @import '../base/base.css';
 @import '../base/layout.css';
 
-.big-container{
-   display: flex;
-   height: 50vh;
-   background-color: var(--primary-color);
+/* components*/
+@import "../components/clock.css";
+
+.top{
+    background-image: url(../../img/background.jpg);
+    width: 100vw;
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    flex-direction: row;
+    color: var(--text-color);
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
 }
+
+.top > h1{
+
+    width:100%;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+.top > h1 > span{
+    font-weight: normal;
+    text-transform: lowercase;
+    padding: 5px;
+}
+
+.top > p{
+font-size: 2em;
+display: flex;
+flex-wrap: wrap;
+width: 20%;
+height: 50px;
+justify-content: flex-start;
+}
+
+.top > p > span{
+    text-decoration: line-through;    
+}
+
 

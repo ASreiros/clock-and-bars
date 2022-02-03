@@ -1,0 +1,20 @@
+.clock{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-size: 2em;
+    padding: 10px;
+    width:300px;
+    align-items: flex-start;
+}
+
+.time{
+   width: 100px;
+   height: 20px;
+}
+
+.label{
+    font-size: 0.8em;
+}
+
+/* Logical part is in clock.js */

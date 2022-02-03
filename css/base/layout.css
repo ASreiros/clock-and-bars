@@ -1,0 +1,5 @@
+.big-container{
+    display: flex;
+    height: 80vh;
+    background-color: var(--primary-color);
+ }
