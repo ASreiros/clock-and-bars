@@ -1,0 +1,10 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+
+.big-container{
+   display: flex;
+   height: 50vh;
+   background-color: var(--primary-color);
+}
+
