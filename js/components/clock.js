@@ -1,5 +1,5 @@
 const Alumnidate = new Date(2022, 05, 13, 12, 0, 0, 0).getTime();
-setInterval(countdownclock(),1000);
+setInterval(countdownclock,1000);
 
 
 function countdownclock() {
@@ -38,5 +38,6 @@ if (miliseconds < 0) {
     secondTvalue.innerHTML = secondT;
     const secondvalue = document.getElementById('second');
     secondvalue.innerHTML = seconds;
+    console.log("ping");
 return
 }
